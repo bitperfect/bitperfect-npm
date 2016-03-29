@@ -1,0 +1,19 @@
+{
+  "name": "bitperfect",
+  "version": "0.0.0",
+  "description": "npm package to install support for BitPerfect.io DACs",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "(npmts)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitperfect/bitperfect-npm.git"
+  },
+  "author": "Lossless GmbH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bitperfect/bitperfect-npm/issues"
+  },
+  "homepage": "https://github.com/bitperfect/bitperfect-npm#readme"
+}
