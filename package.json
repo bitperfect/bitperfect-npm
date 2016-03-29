@@ -1,6 +1,6 @@
 {
   "name": "bitperfect",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "npm package to install support for BitPerfect.io DACs",
   "main": "dist/index.js",
   "scripts": {
