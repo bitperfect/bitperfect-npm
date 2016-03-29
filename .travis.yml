@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- '0.11'
+- '0.10'
+deploy:
+  provider: npm
+  email: npm@lossless.digital
+  api_key:
+    secure: kq/paJBX5j22bKsYcRQFUTqKSn7Dgy4mWbXGnXJLkhQl5n+9MJg/h3CX2dhAKVIXJSUwWUeOztVzxqsuMzeeHEKG5/i0fBInvCo0EdVHBe1Nwd75L+9zVV9e8Oxocewo64zXArCsxo8RPWKoet0X6NLWp3NQ4uVenz2hkZl/aPuO9sTDqBfrrE2CRxxbUahYfapKh+wfsqI6Dkf1fOChf7acUaY+J3jJYoPf1LYIaq0ZP/zaUhz9Q7pOz7C5bvHbvxY7+4jKf6vR5zPTZlrh35e9Y/h6f/SPgw1Rfuu4EsF23NEGxDuanF6TT/L5MrNQRMy2wQw/AdKXVUFFCyQJbjGFGlHO8rpgvjzcommx8JwZHpM5eOl6YMXKmbXoFRg4VDfLfGd1GboC2D7tcYSb2vWaqy8Mg0kbUjeAm2hCcUHUNud1XWujDTdxbLedqsD/V5GOBGN27RZ/CFQhMSUegQy6/QZX7nsp9Qaj82CSx5GHGXxGyVciUJ2+FBF1hLglxhqdSXy8y4oXT6XJzEpn/PofiMemuZg3VMqCJTE1TQ2RJhfN3+msgC2CQB5BXQbha4Z0vI21COX82JNWWkjp6K5bdNtqyMPpHHykrAhEobs4nNHRIBroAGIpwPwz+KnX9Pw5+4N9/iF0sRiIGy6Z1jF3DdhPYHzpPdHknqei6WA=
+  on:
+    tags: true
+    repo: bitperfect/bitperfect-npm
